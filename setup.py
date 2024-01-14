@@ -5,14 +5,14 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="hercai",
-    version="1.0.0",
+    version="2.0.0",
     author="fivesobes",
     description="A powerful Python Package for interacting with the Herc.ai API.",
     fullname="hercai",
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Bes-js/Hercai.py",
-    packages=find_packages(where=".",include="hercai"),
+    packages=find_packages(where="src",include="hercai"),
     license="GPL-3.0",
     keywords=["ai","chatbot","chatgpt","gpt","API","web","arc","smart","smartestchatbot","api","dalle","dall-e","text2image","texttoimage","text2img","texttoimg","image","image-generator","midjourney","diffusion","dall-e2","ai-images","ai-images-generator","gpt",
     "discord","chat","chatbot","chatgpt4","chatgpt-4","openai","open-ai","hercai","herc","herc.ai","smartest","bot","robot","axios",
