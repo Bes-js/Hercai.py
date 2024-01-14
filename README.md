@@ -1,5 +1,5 @@
 <p align="center"> <a href="#"> <img width=500 src="https://raw.githubusercontent.com/Bes-js/herc.ai/main/hercai-logo.png"></a></p> 
-<p align="center"> <img src="https://img.shields.io/github/repo-size/Bes-js/Hercai.py?style=for-the-badge"> <img src="https://img.shields.io/github/contributors/Bes-js/Hercai.py?style=for-the-badge"> <a href="https://discord.gg/luppux" target="_blank"> <img alt="Discord" src="https://img.shields.io/badge/Support-Click%20here-7289d9?style=for-the-badge&logo=discord"> </a><a href="https://www.buymeacoffee.com/beykant" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="120px" height="30px" alt="Buy Me A Coffee"></a></p>
+<p align="center"> <img src="https://img.shields.io/github/repo-size/Bes-js/Hercai.py?style=for-the-badge"> <img src="https://img.shields.io/github/contributors/Bes-js/Hercai.py?style=for-the-badge"> <a href="https://discord.gg/luppux" target="_blank"> <img alt="Discord" src="https://img.shields.io/badge/Support-Click%20here-7289d9?style=for-the-badge&logo=discord"></p>
 
 # [Herc.ai](https://discord.gg/luppux)
 
@@ -60,7 +60,6 @@ print(image_result)
 **Made by [FiveSoBes](https://github.com/Bes-js) And [Luppux Development](https://github.com/Luppux)**
 
 
-# Contact & Support & Donate
-<a href="https://www.buymeacoffee.com/beykant" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="120px" height="30px" alt="Buy Me A Coffee"></a>
+# Contact & Support
 
 [![Discord Banner](https://api.weblutions.com/discord/invite/luppux/)](https://discord.gg/luppux)
