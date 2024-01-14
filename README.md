@@ -23,7 +23,7 @@ pip install hercai
 
 **Exampe Construction;**
 ```py
- from Hercai import Hercai
+ from hercai import Hercai
  herc = Hercai("") # If you have a Hercai API Key, please define it in this section. 
 ```
  
