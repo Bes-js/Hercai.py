@@ -12,7 +12,7 @@ setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/Bes-js/Hercai.py",
-    packages=find_packages(),
+    packages=find_packages(where=".",include="hercai"),
     license="GPL-3.0",
     keywords=["ai","chatbot","chatgpt","gpt","API","web","arc","smart","smartestchatbot","api","dalle","dall-e","text2image","texttoimage","text2img","texttoimg","image","image-generator","midjourney","diffusion","dall-e2","ai-images","ai-images-generator","gpt",
     "discord","chat","chatbot","chatgpt4","chatgpt-4","openai","open-ai","hercai","herc","herc.ai","smartest","bot","robot","axios",
