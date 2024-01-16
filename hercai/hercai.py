@@ -16,8 +16,7 @@ class Hercai:
         try:
             api = requests.get(
                 f"https://hercai.onrender.com/{model}/hercai?question=" + requests.utils.quote(content),
-                headers={"content-type": "application/json"},
-                data={"key": self.api_key},
+                headers={"content-type": "application/json","Authorization": self.api_key},
             )
             return api.json()
         except Exception as err:
@@ -37,7 +36,7 @@ class Hercai:
                 + requests.utils.quote(prompt)
                 + "&negative_prompt="
                 + requests.utils.quote(negative_prompt),
-                headers={"content-type": "application/json"},
+                headers={"content-type": "application/json","Authorization": self.api_key},
                 data={"key": self.api_key},
             )
             return api.json()
