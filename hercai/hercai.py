@@ -7,7 +7,7 @@ class Hercai:
         else:
             self.api_key = api_key
  
-    def question(self, model="v3", content=None):
+    def question(self, model="v3", content=None, personality=""):
         if model not in ["v3", "gemini", "v3-32k", "turbo", "turbo-16k"]:
             model = "v3"
         if not content:
@@ -17,6 +17,7 @@ class Hercai:
             api = requests.get(
                 f"https://hercai.onrender.com/{model}/hercai?question=" + requests.utils.quote(content),
                 headers={"content-type": "application/json","Authorization": self.api_key},
+                data={"personality":personality}
             )
             return api.json()
         except Exception as err:
