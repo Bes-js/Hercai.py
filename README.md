@@ -54,7 +54,15 @@ image_result = herc.draw_image(model="simurg", prompt="A beautiful landscape", n
 print(image_result)
 # print(image_result["url"]) For Image URL        
 ```
+#
+**Example Beta Model's Usage**
+```py
+# For Beta Question
+question_result = herc.beta_question(...)
 
+# For Beta Draw Image
+image_result = herc.beta_draw_image(...)
+```
 #
 # Credits
  
