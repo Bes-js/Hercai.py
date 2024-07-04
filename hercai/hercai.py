@@ -8,7 +8,7 @@ class Hercai:
             self.api_key = api_key
  
     def question(self, model="v3", content=None):
-        if model not in ["v3", "gemini", "v3-32k", "turbo", "turbo-16k"]:
+        if model not in ["v3", "gemini", "v3-32k", "turbo", "turbo-16k", "llama3-70b","llama3-8b","mixtral-8x7b","gemma-7b","gemma2-9b"]:
             model = "v3"
         if not content:
             raise ValueError("Please specify a question!")
