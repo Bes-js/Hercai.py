@@ -34,7 +34,7 @@ pip install hercai
 **Example Question For Python;**
 ```py
 # Available Models 
-# "v3" , "v3-32k" , "turbo" , "turbo-16k" , "gemini" 
+# "v3" , "v3-32k" , "turbo" , "turbo-16k" , "gemini" , "llama3-70b" , "llama3-8b" , "mixtral-8x7b" , "gemma-7b" , "gemma2-9b"
 # Default Model; "v3" 
 # Premium Parameter; personality => Optional
 question_result = herc.question(model="v3", content="hi, how are you?")
